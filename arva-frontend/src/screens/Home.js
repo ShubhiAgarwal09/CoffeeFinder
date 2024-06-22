@@ -47,7 +47,7 @@ export default function Home() {
               </div>
             </div>
             <div className="carousel-item active" >
-              <img src={coffee} className="d-block w-100  " style={{ filter: "brightness(30%)" }} alt="..." />
+              <img src="https://www.sendscraps.com/wp-content/uploads/coffee_006.jpg" className="d-block w-100 " style={{ filter: "brightness(30%)","object-fit": "cover", "marginTop": "-5rem", "height": "60rem"}} alt="..." />
             </div>
             <div className="carousel-item">
               <img src={drinks} className="d-block w-100 " style={{ filter: "brightness(30%)" }} alt="..." />
